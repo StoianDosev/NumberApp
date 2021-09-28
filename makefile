@@ -7,6 +7,13 @@ docker-stop:
 dev:
 	dotnet run --project NumbersApp/NumbersApp.csproj
 
-test:
+all-test:	
 	dotnet test Tests/NumbersApp.Tests.csproj
+	
+unit-test:	
+	dotnet test Tests/NumbersApp.Tests.csproj --filter "TestCategory=UnitTests"
+
+api-test:	
+	dotnet test Tests/NumbersApp.Tests.csproj --filter "TestCategory=IntegrationTests"
+
 
