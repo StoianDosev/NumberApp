@@ -1,5 +1,5 @@
 *.dll
 *.exe
-bin
-obj
+*/bin
+*/obj
 .vscode
