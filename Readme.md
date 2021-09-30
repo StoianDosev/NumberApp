@@ -1,6 +1,7 @@
 Prerequisites:
 
-1. Docker and Docker-Compose or .Net 5
+1. Docker and Docker-Compose or .Net 5 
+2. makefile support for windows
 
 Instalation:
 
@@ -11,3 +12,4 @@ or type and run 'make docker' to run in docker.
 4. Open browser on address: localhost:8000
 5. Run 'make docker-stop' to remove the runnig containers.
 6. Run 'make test' to run unit and integration tests
+
